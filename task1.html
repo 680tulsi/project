@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Page</title>
+    <style>
+        /* Basic reset and body styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            width: 100%;
+            background-color: #f4f4f4;
+            height: 100vh;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 15px 0; 
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px; 
+            font-size: 18px; 
+        }
+
+        .container {
+            margin: 40px auto;
+            max-width: 50%; /* Adjusted to 50% */
+            background-color: white;
+            padding: 40px; 
+            border-radius: 8px; 
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+            height: auto;
+        }
+
+        h1 {
+            font-size: 36px; 
+            margin-bottom: 20px;
+        }
+
+        /* Form styling */
+        form {
+            margin-top: 30px;
+        }
+
+        input[type="text"] {
+            padding: 15px;
+            width: 100%; 
+            max-width: 400px;
+            font-size: 18px; 
+            border: 1px solid #ccc;
+            border-radius: 8px; 
+        }
+
+        input[type="submit"] {
+            padding: 15px 30px; 
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 8px; 
+            cursor: pointer;
+            font-size: 18px; 
+            margin-left: 10px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        img {
+            width: 80%; 
+            max-width: 600px; /* Adjusted to fit the 50% width */
+            height: auto;
+            border-radius: 8px; 
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a> 
+        <a href="#">About</a>  
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <h1>Welcome to My Web Page</h1>
+        <p>This is a simple webpage with an image, form, and navigation.</p>
+        <img src="https://miro.medium.com/v2/resize:fit:1200/1*NdEtVGHfXwkBfr_QIatPIQ.jpeg" alt="Image">
+        <form>
+            <input type="text" placeholder="Enter text here" required>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+
